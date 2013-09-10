@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GrayBlack"
+    tools:context=".LocoActivity" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/Black"
+                    android:gravity="center"
+                    android:text="@string/Titlebar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/fullscreen_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@color/GrayBlack"
+                android:gravity="center"
+                android:keepScreenOn="true"
+                android:textColor="@color/White" >
+            </ListView>
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/dividerVertical" >
+
+                <Button
+                    android:id="@+id/menu_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/menu_button"
+                    android:textColor="@color/White" />
+
+                <Button
+                    android:id="@+id/start_stop_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="@string/start_stop_button"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</FrameLayout>
