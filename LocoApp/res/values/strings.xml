@@ -6,6 +6,15 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="start_stop_button">Start</string>
     <string name="title_bar">LocoApp</string>
-    <string name="Titlebar">Control</string>
+    <string name="control">Control</string>
+    <string name="logs">Logging and Graphs</string>
+    <string name="gait">Gait</string>
+    <string name="profile">Profiles</string>
+    <string name="menu_control">Control</string>
+    <string name="menu_logs">Logs</string>
+    <string name="menu_gait">Gait</string>
+    <string name="menu_profile">Profiles</string>
+    <string name="menu_options">Options</string>
+    <string name="options">Options</string>
 
 </resources>
