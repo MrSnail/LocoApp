@@ -1,0 +1,23 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/control" 
+        android:title="@string/menu_control" 
+        />
+    <item 
+        android:id="@+id/gait" 
+        android:title="@string/menu_gait" 
+        />
+    <item 
+        android:id="@+id/logs" 
+        android:title="@string/menu_logs" 
+        />
+    <item 
+        android:id="@+id/profile" 
+        android:title="@string/menu_profile" 
+        />
+    <item 
+        android:id="@+id/options" 
+        android:title="@string/menu_options" 
+        />
+</menu>
